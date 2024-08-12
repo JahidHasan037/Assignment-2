@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 .banner{
     background-color:rgb(5, 5, 5);
     width: 100%;
-    height:450px;
+    height:550px;
     position: absolute;
     top: 0px;
     margin-bottom: 50px;
@@ -15,6 +17,7 @@
 .herobtn{
     background-color: rgb(48, 39, 39);
     width: 1390px;
+    height: 460px;
     margin: 40px auto;
     gap: 20px;
     padding: 20px;
@@ -51,13 +54,17 @@ nav{
     margin-right: 50px;
 }
 .bannertext>h1{
-    font-size: 29px;
+    font-size: 60px;
     color: white;
-    font-weight: 800px;
+    font-weight: 900px;
     margin-bottom: 20px;
+    line-height: 70px;
 }
 #shape{
-    font-style: italic;
+    font-family: 'Miama', sans-serif;
+    font-size: 4.87rem;
+    font-weight: 10px;
+    color:white;
 }
 .bannertext>p{
     color: gainsboro;
@@ -87,23 +94,24 @@ nav{
     border-radius: 20px;
 }
 .banner-img{
-    height: 20px;
+    
 }
 .section-1
 {
     background-color:rgb(5, 5, 5);
     width: 100%;
-    height:400px;
+    height:450px;
     position: absolute;
-    top: 480px;
+    top: 580px;
 
 }
 .habit{
     background-color: rgb(48, 39, 39);
     width: 1390px;
+    height: 375px;
     margin: 39px auto;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     gap: 12px;
     padding: 20px;
     border: 3px solid gray;
@@ -125,12 +133,26 @@ nav{
 .habitimg{
     display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 
 }
-.habitimg>img{
-    border: 3px solid gray;
+.card-1{
+    justify-content: center;
+    text-align: center;
+    line-height: 18px;
+}
+.card-1>img{
     border-radius: 100px;
+}
+.card-1>h3{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+.card-1>p{
+    font-size: 16px;
+    color: darkgray;
+    line-height: 18px;
 }
 
 .section-2{
@@ -138,7 +160,7 @@ nav{
     width: 100%;
     height:325px;
     position: absolute;
-    top: 915px;
+    top: 1055px;
     margin-bottom: 100px;
 }
 .runextra{
@@ -177,7 +199,7 @@ nav{
     height:590px;
     position: absolute;
     margin-bottom: 100px;
-    top: 1280px;
+    top: 1420px;
 
 }
 .training{
@@ -213,7 +235,7 @@ nav{
     width: 100%;
     height:390px;
     position: absolute;
-    top: 1910px;
+    top: 2040px;
    
 }
 .bmi{
@@ -257,36 +279,42 @@ td{
 .section-5{
     background-color:rgb(5, 5, 5);
     width: 100%;
-    height:490px;
+    height:790px;
     position:absolute;
-    top: 2350px;
+    top: 2450px;
 }
 .meetourteam{
-    background-color: rgb(48, 39, 39);
+    background-color: rgb(0, 0, 0);
     width: 1390px;
+    height: 600px;
     margin: 26px auto;
-    border: 5px solid black;
-    border-radius: 10px;
+    
     
 }
 .meet-1{
     text-align: center;
     color: gray;
+    margin-bottom: 50px;
+    line-height: 50px;
 }
 .meet-1 h2{
     font-size: 35px;
     color: white;
 }
 .meet-2{
+    height: 585px;
+    background-color: rgb(48, 39, 39);
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
     
 }
 .meet-2>img{
      border: 2px black;
     border-radius: 10px;
-    gap: 10px;
     margin-bottom: 20px;
 
 }
@@ -294,7 +322,7 @@ td{
     background-color: rgb(5, 5, 5);
     width: 100%;
     position: absolute;
-    top: 2890px;
+    top: 3270px;
     
 }
 .innerpart{
